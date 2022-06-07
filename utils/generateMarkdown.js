@@ -25,8 +25,9 @@ function generateMarkdown(answers) {
   
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Credits](#credits)
+  - [Credits](#contributions)
   - [License](#license)
+  - [Questions](#questions)
   
   ## Installation
   
