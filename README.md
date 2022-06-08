@@ -26,6 +26,8 @@ Now you can run the application.
 
 To start, enter `node ./index.js` . 
 
+![app demo](./assets/README%20Generator.gif)
+
 The application prompts you with a series of questions: 
 - Please enter your Project Title?
 - Please enter your Project Description? 
