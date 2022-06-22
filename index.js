@@ -38,7 +38,7 @@ const questions = [{
     type: 'list',
     name: 'license',
     message: 'Please choose a License?',
-    choices: ['MIT', 'GNU', 'Apache']
+    choices: ['GNU', 'MIT', 'Apache']
 },
 {
     type: 'input',
@@ -51,6 +51,16 @@ const questions = [{
     message: 'Please enter your Email address?',
 }, 
 ];
+// TODO: Create a function that adds a badge to the license
+function licenseBadge(value) {
+    if (value === "GNU") {
+      return "[![License: GNU](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.html";
+    } else if (value === "MIT") {
+      return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+    } else if (value === "Apache") {
+      return "[![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)";
+    }
+  };
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
@@ -60,7 +70,7 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt( questions ).then( answers => {
-        console.log(answers)
+        answers.licenseBadge = licenseBadge(answers.license);
         writeToFile('./dist/README-sample.md', generateMarkdown( answers ))
     }).catch( err => {
         console.log(err)

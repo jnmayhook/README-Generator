@@ -14,6 +14,8 @@ function renderLicenseSection(license) {}
 function generateMarkdown(answers) {
   return `# ${answers.title}
 
+  ${answers.licenseBadge}
+
   ## Description
 
   ${answers.description}

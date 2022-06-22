@@ -1,8 +1,10 @@
-# Project Title
+# Project Title goes here
+
+  [![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
   ## Description
 
-  Project Description 
+  Project Description goes here
 
   ## Table of Contents
   
@@ -14,19 +16,19 @@
   
   ## Installation
   
-  Installation Instructions
+  Installation Instructions goes here
   
   ## Usage
   
-  Usage Information
+  Usage Information goes here
       
   ## Contributions
   
-  Contribution Guidelines
+  Contribution Guidelines goes here
   
   ## License
   
-  MIT
+  Apache
 
   ## Questions
 
