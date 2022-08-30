@@ -26,7 +26,7 @@ Now you can run the application.
 
 To start, enter `node ./index.js` . 
 
-![app demo](./assets/README%20Generator.gif)
+[Click here for a demo of the app run via the command line.](https://drive.google.com/file/d/1Pw0uLzquIe8RgmmkEt2uC9im_YuBmKIP/view)
 
 The application prompts you with a series of questions: 
 - Please enter your Project Title?
@@ -51,9 +51,9 @@ When all the questions are answered, a README file is dynamically outputted into
 
 ---
 
-## Questions?
-Feel free to contact me with questions via the information below:
+## Questions? 
+Please contact me: 
 
-GitHub profile: [@jnmayhook](https://github.com/jnmayhook)
+GitHub: [@jnmayhook](https://github.com/jnmayhook)
+Email: [jnmayhook@gmail.com](mailto:jnmayhook@gmail.com)
 
-GitHub repo: [github.com/jnmayhook/README-Generator](https://github.com/jnmayhook/README-Generator)
